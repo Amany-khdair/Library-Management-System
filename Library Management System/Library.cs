@@ -89,6 +89,7 @@ namespace Library_Management_System
         #region Return Book
         public void ReturnBook(int memberId, int bookId, int daysLate)
         {
+            if (daysLate < 0) daysLate = 0;
             Member member = Array.Find(Members, m => m != null && m.Id == memberId);
             Book book = Array.Find(Books, b => b != null && b.Id == bookId);
             if (member == null)
@@ -101,14 +102,23 @@ namespace Library_Management_System
                 Console.WriteLine("Book not found!");
                 return;
             }
-            member.ReturnBook(book);
-            book.IsBorrowed = false;
-            double fine = fineCalculator.CalculateFine(daysLate);
-            Console.WriteLine($"Late by {daysLate} days. Fine: ${fine}");
 
-            Transactions[transactionIndex] = new Transaction(transactionIndex + 1, book.Title, member.Name, TransactionType.Return);
-            transactionIndex++;
-            TotalBorrowedBooks--;
+            int borrowedBefore = member.BorrowIndex;
+            member.ReturnBook(book);
+            if (member.BorrowIndex < borrowedBefore)
+            { 
+                TotalBorrowedBooks--;
+                book.IsBorrowed = false;
+                double fine = fineCalculator.CalculateFine(daysLate);
+                Console.WriteLine($"Late by {daysLate} days. Fine: ${fine}");
+
+                Transactions[transactionIndex] = new Transaction(transactionIndex + 1, book.Title, member.Name, TransactionType.Return);
+                transactionIndex++;
+            }
+            else
+            {
+                Console.WriteLine($"No transaction recorded for {book.Title}");
+            }                   
         }
         #endregion
 
