@@ -1,0 +1,14 @@
+C:\Users\hp\Desktop\FullStack course\Bach-End and ASP.Net\app1\Library Management System\Library Management System\bin\Debug\net10.0\Library Management System.exe
+C:\Users\hp\Desktop\FullStack course\Bach-End and ASP.Net\app1\Library Management System\Library Management System\bin\Debug\net10.0\Library Management System.deps.json
+C:\Users\hp\Desktop\FullStack course\Bach-End and ASP.Net\app1\Library Management System\Library Management System\bin\Debug\net10.0\Library Management System.runtimeconfig.json
+C:\Users\hp\Desktop\FullStack course\Bach-End and ASP.Net\app1\Library Management System\Library Management System\bin\Debug\net10.0\Library Management System.dll
+C:\Users\hp\Desktop\FullStack course\Bach-End and ASP.Net\app1\Library Management System\Library Management System\bin\Debug\net10.0\Library Management System.pdb
+C:\Users\hp\Desktop\FullStack course\Bach-End and ASP.Net\app1\Library Management System\Library Management System\obj\Debug\net10.0\Library Management System.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\Desktop\FullStack course\Bach-End and ASP.Net\app1\Library Management System\Library Management System\obj\Debug\net10.0\Library Management System.AssemblyInfoInputs.cache
+C:\Users\hp\Desktop\FullStack course\Bach-End and ASP.Net\app1\Library Management System\Library Management System\obj\Debug\net10.0\Library Management System.AssemblyInfo.cs
+C:\Users\hp\Desktop\FullStack course\Bach-End and ASP.Net\app1\Library Management System\Library Management System\obj\Debug\net10.0\Library Management System.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\FullStack course\Bach-End and ASP.Net\app1\Library Management System\Library Management System\obj\Debug\net10.0\Library Management System.dll
+C:\Users\hp\Desktop\FullStack course\Bach-End and ASP.Net\app1\Library Management System\Library Management System\obj\Debug\net10.0\refint\Library Management System.dll
+C:\Users\hp\Desktop\FullStack course\Bach-End and ASP.Net\app1\Library Management System\Library Management System\obj\Debug\net10.0\Library Management System.pdb
+C:\Users\hp\Desktop\FullStack course\Bach-End and ASP.Net\app1\Library Management System\Library Management System\obj\Debug\net10.0\Library Management System.genruntimeconfig.cache
+C:\Users\hp\Desktop\FullStack course\Bach-End and ASP.Net\app1\Library Management System\Library Management System\obj\Debug\net10.0\ref\Library Management System.dll
